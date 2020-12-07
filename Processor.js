@@ -1,6 +1,7 @@
 class Processor {
     static Process(data) {
         let r = data.split("\n");
+        r.pop();
         let rows = [];
 
         r.forEach(row => {
